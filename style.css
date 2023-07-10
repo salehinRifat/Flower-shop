@@ -122,16 +122,15 @@
 .pricing-container{
     display: flex;
     justify-content: space-around;
-    padding: 60px 130px;
+    padding: 60px 130px 100px 130px;
 }
 .pricing-box{
     width: 240px;
     height: 300px;
-    background-color: #ddd;
     text-align: center;
     color: #333;
     padding: 10px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0px 7px 23px #9e9d9d;
 }
 .pricing-box h1{
     margin-bottom: 10px;
@@ -157,4 +156,31 @@
 }
 .fa-xmark{
     color: tomato;
+}
+.signup-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+}
+.signup-content{
+    width: 40%;
+    text-align: center;
+    margin-right: 30px;
+}
+.signup-content h1{
+    margin-bottom: 20px;
+}
+.signup-content span{
+    color: #E55473;
+}
+.signup-content p{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 20px 0;
+}
+.signup-img img{
+    width: 200px;
+    margin-left: 50px;
 }
