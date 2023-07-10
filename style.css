@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Common Styles */
+.btn{
+    padding: 10px 20px;
+    background-color:#E55473 ;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Common Styles End */
+.header-container{
+    padding: 30px 130px 0px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    height: 550px;
+}
+.header-content{
+    width: 50%;
+}
+.header-content h1{
+    font-size: 40px;
+    padding: 20px 0;
+    color: #272727;
+}
+.header-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.header-img img{
+    width: 400px;
+    margin-bottom: -52px;
+}
