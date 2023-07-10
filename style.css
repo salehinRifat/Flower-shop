@@ -25,6 +25,12 @@
     padding: 80px 0 0 0;
     font-size: 35px;
 }
+.title-text{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 20px 0;
+    text-align: center;
+}
 /* Common Styles End */
 .header-container{
     padding: 30px 130px 0px 130px;
@@ -183,4 +189,61 @@
 .signup-img img{
     width: 200px;
     margin-left: 50px;
+}
+.insta-card-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+.insta-card-container img{
+    width: 250px;
+}
+.sub-container{
+    padding: 10px 130px;
+    margin-top: 50px;
+}
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+}
+input[type="email"]{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #111010;
+    padding: 120px 130px;
+    margin-top: 50px;
+}
+.footer-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container span{
+    color: #E55473;
+}
+.footer-container h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-container .footer-text{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 15px;
 }
