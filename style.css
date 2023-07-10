@@ -39,3 +39,68 @@
     width: 400px;
     margin-bottom: -52px;
 }
+.flower-info{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.flower-info h1{
+    color: #272727;
+    margin-bottom: 15px;
+}
+.flower-info p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+}
+.flower-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-flower{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.featured-flower p{
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -40px;
+}
+.featured-flower-1,.featured-flower-2,.featured-flower-3{
+    margin-right: 40px;
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+.featured-flower-3{
+    margin-right: 0;
+}
+.featured-flower-1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.featured-flower-1 img{
+    position: relative;
+    bottom: -74px;
+}
+.featured-flower-2 img{
+    position: relative;
+    bottom: -90px;
+}
+.featured-flower-3 img{
+    position: relative;
+    bottom: -50px;
+}
+.featured-flower-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-flower-3{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-img-container img{
+    width: 200px;
+}
