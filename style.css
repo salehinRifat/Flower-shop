@@ -259,12 +259,15 @@
     text-align: center;
     height: 340px;
 }
-.sub-content h1{
+
+.sub-content h1 {
     padding-top: 0px;
 }
+
 input[type="email"] {
     width: 500px;
-    padding: 10px;
+    padding: 13px;
+    border-radius: 5px;
     border: none;
     margin-right: 10px;
 }
@@ -272,7 +275,7 @@ input[type="email"] {
 footer {
     background-color: #111010;
     padding: 120px 130px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .footer-container {
@@ -295,9 +298,10 @@ footer {
 .footer-container .footer-text {
     color: rgba(255, 255, 255, 0.90);
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .copy {
     color: rgba(255, 255, 255, 0.40);
-    font-size: 15px;
+    font-size: 14px;
 }
